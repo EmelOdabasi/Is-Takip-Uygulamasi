@@ -1,4 +1,4 @@
-# İş Takip Sistemi - ASP.NET MVC ile Geliştirilmiş
+# İş Takip Sistemi -
 
 ## Proje Hakkında
 
@@ -62,8 +62,9 @@ Bu proje, modern ve güvenilir web teknolojileri kullanılarak geliştirilmişti
 | **Entity Framework** | Veritabanı ile nesne yönelimli ilişki (ORM) kurarak veri erişimini kolaylaştırma |
 | **Bootstrap**       | Kullanıcı arayüzü tasarımında modern ve duyarlı (responsive) tasarımlar oluşturma |
 
+## Veri Diyagramı
 ![Teknoloji Logoları](https://github.com/user-attachments/assets/c51f91b4-8f28-46cb-a427-ff2054dcc55d)
 
-## Veri Diyagramı
 
-[Veri Diyagramı Resmi Burada Olacak]
+
+
