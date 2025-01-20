@@ -65,6 +65,8 @@ Bu proje, modern ve güvenilir web teknolojileri kullanılarak geliştirilmişti
 ## Veri Diyagramı
 ![Teknoloji Logoları](https://github.com/user-attachments/assets/c51f91b4-8f28-46cb-a427-ff2054dcc55d)
 
+##Video
+https://github.com/user-attachments/assets/1f2b919a-c19d-4cdd-91b4-7a48902f1b0e
 
 
 
