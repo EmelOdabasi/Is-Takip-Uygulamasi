@@ -1,0 +1,54 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+<head>
+    <script src="/docs/5.3/assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.122.0">
+    <title>İş Takip Sistemi Giriş</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+
+    <!-- Custom styles for this template -->
+    <link href="~/Content/sign-in.css" rel="stylesheet" />
+</head>
+<body class="d-flex align-items-center py-4 bg-body-tertiary">
+
+
+
+
+    <main class="form-signin w-100 m-auto">
+        @using (Html.BeginForm("Index", "Login", FormMethod.Post))
+        {
+            <h1 class="h3 mb-3 fw-normal">İş Takip Sistemi Giriş Sayfası</h1>
+            <br />
+            <div class="form-floating">
+                <input type="text" class="form-control" id="kullaniciAd" name="kullaniciAd">
+                <label for="kullaniciAd">Kullanıcı Adınız</label>
+            </div>
+            <br />
+            <div class="form-floating">
+                <input type="password" class="form-control" id="parola" name="parola">
+                <label for="parola">Parola</label>
+            </div>
+            <br />
+            <button class="btn btn-primary w-100 py-2" type="submit">Giriş</button>
+
+
+
+        }
+    </main>
+
+</body>
+</html>
+

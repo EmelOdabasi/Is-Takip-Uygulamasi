@@ -1,0 +1,66 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>İş Takip Çalışan</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body.calisanlar-sayfasi { /* "calisanlar-sayfasi" sınıfını çalışanlar sayfasının <body> etiketine ekleyin */
+            background-image: url('https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1920');
+            background-size: cover; /* Arka planın tüm alanı kaplamasını sağlar */
+            background-repeat: no-repeat; /* Tekrarı engeller */
+            background-attachment: fixed; /* Kaydırma yapıldığında sabit kalır */
+    </style>
+</head>
+<body class="calisanlar-sayfasi">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md ">
+        <div class="container">
+            <a class="navbar-brand" href="#">İş Takip Çalışan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        @{
+                            var iconHtml = "🏠";
+                            var iconHtml2 = "✅";
+                            var iconHtml3 = "📝";
+                            var iconHtml4 = "🚪";
+                        }
+
+                        @Html.ActionLink(Html.Raw(iconHtml + "Anasayfa").ToString(), "Index", "Calisan", new { }, new { @class = "nav-link" })
+                    </li>
+
+                    <li class="nav-item">
+                        @Html.ActionLink(Html.Raw(iconHtml2 + " İş Tamamla").ToString(), "Yap", "Calisan", new { }, new { @class = "nav-link" })
+                    </li>
+
+                    <li class="nav-item">
+                        @Html.ActionLink(Html.Raw(iconHtml3 + " İş Takip").ToString(), "Takip", "Calisan", new { }, new { @class = "nav-link" })
+                    </li>
+
+
+                </ul>
+
+                <div class="d-flex nav-item">
+                    @Html.ActionLink(Html.Raw(iconHtml4 + " Çıkış").ToString(), "Index", "Logout", new { }, new { @class = "btn btn-danger" })
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <main role="main" class="container">
+        @RenderBody()
+    </main>
+</body>
+</html>
