@@ -15,9 +15,9 @@ Bu proje, ASP.NET MVC çatısı kullanılarak geliştirilmiş kapsamlı bir iş 
 
 Projenin işleyişini ve arayüzünü görmek için aşağıdaki video tanıtımını izleyebilirsiniz:
 
-[İş Takip Video.zip](https://github.com/user-attachments/files/18531326/Is.Takip.Video.zip)
+https://www.youtube.com/watch?v=UaUAXmH1JCs
 
-**Not:** Video dosyası ZIP formatındadır. İndirip açarak video tanıtımına ulaşabilirsiniz.
+**Not:** Açarak video tanıtımına ulaşabilirsiniz.
 
 ## Özellikler
 
